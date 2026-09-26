@@ -1,12 +1,19 @@
 #include <stdio.h>
 
 int main(void) {
-  int a = 5;
-  int b = 10;
-  int c = 15;
+    int a, b, c, largest;
 
-  printf(" a + b + c = %d\n", a + b + c);
-  printf(" a * b -c = %d\n", a * b - c);
-  printf("Hello, World!\n");
-  return 0;
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    largest = a;
+
+    if (b > largest)
+        largest = b;
+    if (c > largest)
+        largest = c;
+
+    printf("The biggest number is: %d\n", largest);
+
+    return 0;
 }

@@ -6,6 +6,7 @@ int main(void) {
   int c = 15;
 
   printf(" a + b + c = %d\n", a + b + c);
+  printf(" a * b -c = %d\n", a * b - c);
   printf("Hello, World!\n");
   return 0;
 }

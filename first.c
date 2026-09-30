@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
+    
     int a, b, c, largest;
 
-    printf("Type three numbers: ");
+    printf("Type three numbers:");
     scanf("%d %d %d", &a, &b, &c);
 
     largest = a;
